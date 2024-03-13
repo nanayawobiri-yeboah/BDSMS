@@ -1,10 +1,10 @@
-import 'package:book_distribution/view/login/help_us_view.dart';
+
 import 'package:flutter/material.dart';
 
 import '../../common/color_extenstion.dart';
 import '../../common_widget/round_button.dart';
 import '../../common_widget/round_textfield.dart';
-
+import 'package:book_distribution/view/onboarding/welcome_view.dart';
 
 class BookShopRegister extends StatefulWidget {
   const BookShopRegister({super.key});
@@ -180,7 +180,7 @@ class _BookShopRegisterState extends State<BookShopRegister> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => const HelpUsView()));
+                          builder: (context) =>  WelcomeView()));
                 },
               )
             ],

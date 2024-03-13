@@ -1,6 +1,7 @@
-import 'package:book_distribution/view/login/help_us_view.dart';
+
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'package:book_distribution/view/onboarding/welcome_view.dart';
 
 import 'package:email_validator/email_validator.dart';
 
@@ -377,7 +378,7 @@ class _SchoolRegisterState extends State<SchoolRegister> {
                      // Navigate to the next page
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => const HelpUsView()),
+                      MaterialPageRoute(builder: (context) => WelcomeView()),
                     );
                   }
                 },

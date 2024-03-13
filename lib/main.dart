@@ -1,5 +1,4 @@
 import 'package:book_distribution/common/color_extenstion.dart';
-import 'package:book_distribution/view/main_tab/main_tab_view.dart';
 import 'package:book_distribution/view/onboarding/onboarding_view.dart';
 import 'package:flutter/material.dart';
 
